@@ -26,7 +26,7 @@
  */
 
 #ifndef lint
-static const char rcsid[] =
+__attribute__((unused)) static const char rcsid[] =
   "$FreeBSD$";
 #endif /* not lint */
 
