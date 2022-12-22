@@ -6,3 +6,8 @@ Previously, this library was found in [`aquabsd-pkg-repo`](https://github.com/in
 Temporary you say?
 Yes, Temporary™! I'd like this to be reimplemented into a generic filesystem manipulation library, something along the lines of `libfsutils`, which would also include what's currently in [`libcopyfile`](https://github.com/inobulles/libcopyfile).
 But that's not for right now 😉
+
+# Copyright stuff
+
+Copyright over the source is held by Robert Nordier, and is licensed under the BSD-2-Clause-FreeBSD license (SPDX identifier).
+A copy of the license text may be found in the `LICENSE` file in the root directory.
