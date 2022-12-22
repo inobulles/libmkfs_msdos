@@ -9,5 +9,5 @@ But that's not for right now 😉
 
 # Copyright stuff
 
-Copyright over the source is held by Robert Nordier, and is licensed under the BSD-2-Clause-FreeBSD license (SPDX identifier).
-A copy of the license text may be found in the `LICENSE` file in the root directory.
+Copyright over the source is held by Robert Nordier and the NetBSD Foundation.
+A copy of the license texts may be found in the `LICENSE` file in the root directory.
