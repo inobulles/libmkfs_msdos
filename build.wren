@@ -33,7 +33,7 @@ File.list("src")
 var install = {
 	"libmkfs_msdos.a":  "%(Meta.prefix())/lib/libmkfs_msdos.a",
 	"libmkfs_msdos.so": "%(Meta.prefix())/lib/libmkfs_msdos.so",
-	"mkfs_msdos.h":     "%(Meta.prefix())/lib/mkfs_msdos.h",
+	"mkfs_msdos.h":     "%(Meta.prefix())/include/mkfs_msdos.h",
 }
 
 // testing
