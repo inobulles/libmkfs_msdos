@@ -31,9 +31,9 @@ File.list("src")
 // installation map
 
 var install = {
-	"libmkfs_msdos.a":  "%(Meta.prefix())/lib/libmkfs_msdos.a",
-	"libmkfs_msdos.so": "%(Meta.prefix())/lib/libmkfs_msdos.so",
-	"mkfs_msdos.h":     "%(Meta.prefix())/include/mkfs_msdos.h",
+	"libmkfs_msdos.a":  "lib/libmkfs_msdos.a",
+	"libmkfs_msdos.so": "lib/libmkfs_msdos.so",
+	"mkfs_msdos.h":     "include/mkfs_msdos.h",
 }
 
 // testing
