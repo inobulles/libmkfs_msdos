@@ -17,7 +17,7 @@ src
 
 // create static & dynamic libraries
 
-var linker = Linker.new(cc)
+var linker = Linker.new()
 
 linker.archive(src.toList, "libmkfs_msdos.a")
 linker.link(src.toList, [], "libmkfs_msdos.so", true)
