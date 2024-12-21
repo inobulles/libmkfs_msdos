@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: BSD-2-Clause
+# Copyright (c) 2024 Aymeric Wibo
+
+import bob
+
+# C compilation.
+
+let obj = Cc([
+	"-fPIC", "-std=c99",
+	"-Wall", "-Wextra", "-Werror"
+]).compile(["src/mkfs_msdos.c"])
+
+# Create static & dynamic libraries.
+
+let archive = Linker([]).archive(obj)
+let dyn_lib = Linker(["-shared"]).link(obj)
+
+# Installation map.
+
+install = {
+	archive: "lib/libmkfs_msdos.a",
+	dyn_lib: "lib/libmkfs_msdos.so",
+	"src/mkfs_msdos.h": "include/mkfs_msdos.h",
+}
+
+# Default runner.
+
+run = none
